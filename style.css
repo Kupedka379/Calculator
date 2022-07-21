@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+input {
+    display: block;
+    width: 17rem;
+    margin: 0.3rem;
+    border: 1px solid silver;
+    font-size: 2rem;
+    text-align: right;
+    outline-width: 0;
+}
+
+button {
+    padding: 5px;
+}
+
+.numbers button,
+.operators button {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid silver;
+    margin: 2px;
+    outline-width: 0;
+}
+
+button:hover {
+    border-color: gray;
+}
+
+button:active {
+    font-weight: bolder;
+    background-color: silver;
+}
+
+.left-panel,
+.right-panel {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.3rem;
+}
+
+.window {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+button.big-button {
+    height: 6.2rem;
+}
+
+button.clear {
+    background-color: lightsalmon;
+}
+
+button.result {
+    background-color: lightskyblue;
+}
